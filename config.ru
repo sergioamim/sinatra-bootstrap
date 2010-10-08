@@ -1,5 +1,9 @@
 require 'rubygems'
+require 'bundler/setup'
+
+require 'compass'
 require 'sinatra'
+require 'haml'
 require 'app'
 
 root_dir = File.dirname(__FILE__)

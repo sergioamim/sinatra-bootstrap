@@ -1,13 +1,4 @@
-# Load before Sinatra
-require 'rubygems'
-require 'compass' # must be loaded before sinatra
-
-# Load Sinatra
-require 'sinatra'
 require 'lib/render_partial'
-
-# Load after Sinatra
-require 'haml' # must be loaded after sinatra
 
 # Set Sinatra's variables
 set :app_file, __FILE__
